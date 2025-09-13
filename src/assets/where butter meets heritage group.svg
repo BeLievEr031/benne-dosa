@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="831.5" height="272.771" viewBox="0 0 831.5 272.771">
+  <defs>
+    <filter id="Bennie_Dosa" x="362.5" y="141.771" width="469" height="131" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Bennie_Dosa-2" x="362.5" y="141.771" width="469" height="131" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="where_butter_meets_heritage_group" data-name="where butter meets heritage group" transform="translate(-564.5 -3573.479)">
+    <text id="Where_Butter_Meets_Heritage" data-name="Where Butter 
+Meets Heritage" transform="translate(965.5 3664.479)" fill="none" stroke="#e8b343" stroke-width="1" font-size="110" font-family="LufthansaHead-Bold, Lufthansa Head" font-weight="700"><tspan x="-353.155" y="0">Where Butter </tspan><tspan x="-394.075" y="106">Meets Heritage</tspan></text>
+    <text id="Where_Butter_Meets_Heritage-2" data-name="Where Butter 
+Meets Heritage" transform="translate(960.5 3659.479)" fill="#e8b343" stroke="#e8b343" stroke-width="1" font-size="110" font-family="LufthansaHead-Bold, Lufthansa Head" font-weight="700"><tspan x="-353.155" y="0">Where Butter </tspan><tspan x="-394.075" y="106">Meets Heritage</tspan></text>
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, 564.5, 3573.48)" filter="url(#Bennie_Dosa)">
+        <text id="Bennie_Dosa-3" data-name="Bennie Dosa" transform="translate(596.5 220.77)" fill="#fff" font-size="60" font-family="JustCalling-Regular, Just Calling"><tspan x="-215.49" y="0">Bennie Dosa</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 564.5, 3573.48)" filter="url(#Bennie_Dosa-2)">
+        <text id="Bennie_Dosa-4" data-name="Bennie Dosa" transform="translate(596.5 220.77)" fill="#fff" font-size="60" font-family="JustCalling-Regular, Just Calling"><tspan x="-215.49" y="0">Bennie Dosa</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

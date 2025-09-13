@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="469" height="131" viewBox="0 0 469 131">
+  <defs>
+    <filter id="Bennie_Dosa" x="0" y="0" width="469" height="131" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#0e3a0b"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Bennie_Dosa)">
+    <text id="Bennie_Dosa-2" data-name="Bennie Dosa" transform="translate(234 79)" fill="#fff" font-size="60" font-family="JustCalling-Regular, Just Calling"><tspan x="-215.49" y="0">Bennie Dosa</tspan></text>
+  </g>
+</svg>

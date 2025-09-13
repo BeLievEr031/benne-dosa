@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="917.798" height="378" viewBox="0 0 917.798 378">
+  <defs>
+    <filter id="_A_glden_crisp_from_the_heart_of_Karnataka_" x="116.796" y="0" width="679" height="100" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#0e3a0b"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Bennie_Dosa" x="439.796" y="256" width="426" height="122" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-2"/>
+      <feFlood flood-color="#0e3a0b"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1011" data-name="Group 1011" transform="translate(-502.204 -276)">
+    <text id="Where_Butter_Meets_Heritage" data-name="Where Butter 
+Meets Heritage" transform="translate(964.002 450.435)" fill="none" stroke="#e8b343" stroke-width="1" font-size="127" font-family="LufthansaHead-Bold, Lufthansa Head" font-weight="700"><tspan x="-407.734" y="0">Where Butter </tspan><tspan x="-454.978" y="122">Meets Heritage</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 502.2, 276)" filter="url(#_A_glden_crisp_from_the_heart_of_Karnataka_)">
+      <text id="_A_glden_crisp_from_the_heart_of_Karnataka_2" data-name="&quot;A glden crisp from the heart of Karnataka&quot;" transform="translate(451.8 58)" fill="#fff" font-size="54" font-family="FreestyleScript-Regular, Freestyle Script"><tspan x="-316.854" y="0">&quot;A glden crisp from the heart of Karnataka&quot;</tspan></text>
+    </g>
+    <text id="Where_Butter_Meets_Heritage-2" data-name="Where Butter 
+Meets Heritage" transform="translate(958.204 444.637)" fill="#e8b343" stroke="#e8b343" stroke-width="1" font-size="127" font-family="LufthansaHead-Bold, Lufthansa Head" font-weight="700"><tspan x="-407.734" y="0">Where Butter </tspan><tspan x="-454.978" y="122">Meets Heritage</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 502.2, 276)" filter="url(#Bennie_Dosa)">
+      <text id="Bennie_Dosa-2" data-name="Bennie Dosa" transform="translate(651.8 329)" fill="#fff" font-size="54" font-family="JustCalling-Regular, Just Calling"><tspan x="-193.941" y="0">Bennie Dosa</tspan></text>
+    </g>
+  </g>
+</svg>
