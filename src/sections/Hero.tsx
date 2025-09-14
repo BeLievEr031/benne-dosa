@@ -4,25 +4,25 @@ import HeroBtmBorder from "../assets/Group 964.svg"
 import MiniIndicator from "../assets/mindicator.svg"
 function Hero() {
     return (
-        <section className="h-screen pt-2 bg-[#2d7527]">
-            <div className="pt-24 h-screen">
-                <div className="relative flex justify-center h-[80%]">
+        <section className="sm:h-screen pt-2 px-4 bg-[#2d7527]">
+            <div className="pt-24 sm:h-screen">
+                <div className="relative flex justify-center sm:h-[50%] h-[68%]">
                     <img src={HeroTextSvg} alt=""
-                        className="w-[1500px] h-[280px]"
+                        className="pl-4 w-[1500px] h-[280px]"
                     />
                     <div
-                        className="absolute top-[35%] w-[400px] z-10"
+                        className="absolute top-[35%] sm:w-[400px] z-10"
                     >
                         <img src={DosaInPlateImg} alt=""
-                            className="w-full"
+                            className="sm:w-full w-[90%] pl-7 sm:pl-0 pt-13 sm:pt-18 overflow-hidden"
                         />
                         <img src={MiniIndicator} alt=""
-                            className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2"
+                            className="absolute sm:bottom-0 -bottom-8 sm:h-[30%] translate-y-1/2 left-1/2 -translate-x-1/2"
                         />
                     </div>
                 </div>
 
-                <div className="absolute left-0 bottom-0">
+                <div className="absolute left-0 sm:bottom-0 bottom-52">
                     <img src={HeroBtmBorder} />
                 </div>
             </div>
