@@ -17,7 +17,7 @@ function Hero() {
                             className="sm:w-full w-[90%] pl-7 sm:pl-0 pt-13 sm:pt-18 overflow-hidden"
                         />
                         <img src={MiniIndicator} alt=""
-                            className="absolute sm:bottom-0 -bottom-8 sm:h-[30%] translate-y-1/2 left-1/2 -translate-x-1/2"
+                            className="absolute sm:bottom-0 -bottom-0 sm:h-[30%] h-[25%] sm:translate-y-1/2 sm:left-1/2 -translate-x-1/2 left-[49%] translate-y-[49%]"
                         />
                     </div>
                 </div>

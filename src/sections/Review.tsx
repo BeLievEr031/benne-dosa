@@ -1,15 +1,17 @@
 function Review() {
     return (
         <div className="bg-secondary py-20">
-            <h1 className="text-primary text-5xl font-bold text-center">What People Say</h1>
+            <h1 className="text-primary text-5xl font-bold text-center max-sm:text-3xl">
+                What People Say
+            </h1>
 
-            <div className="pt-16 flex px-10 gap-x-5">
-                <ReviewCard />
-                <ReviewCard />
-                <ReviewCard />
-                <ReviewCard />
-                <ReviewCard />
-                <ReviewCard />
+            <div
+                className="
+        pt-16 flex px-10 gap-x-5
+        max-sm:gap-y-6 max-sm:px-6 overflow-x-auto scroll-smooth
+        [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']
+    "
+            >
                 <ReviewCard />
                 <ReviewCard />
                 <ReviewCard />
@@ -19,17 +21,20 @@ function Review() {
                 <ReviewCard />
             </div>
 
-
         </div>
     )
 }
-
 
 import { Star, ThumbsUp, Share2, Heart } from "lucide-react";
 
 function ReviewCard() {
     return (
-        <div className="bg-primary text-white rounded-3xl p-6 w-[250px] shadow-lg flex flex-col justify-between shrink-0">
+        <div
+            className="
+                bg-primary text-white rounded-3xl p-6 w-[250px] shadow-lg flex flex-col justify-between shrink-0
+                max-sm:w-full
+            "
+        >
             {/* Header: Avatar + Name + Rating */}
             <div className="flex items-center gap-3">
                 <img
@@ -69,5 +74,4 @@ function ReviewCard() {
     );
 }
 
-
-export default Review
+export default Review;
