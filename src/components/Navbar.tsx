@@ -32,7 +32,7 @@ function Navbar() {
                     {/* Phone Number (always visible) */}
                     <button className="font-bold uppercase bg-[#14520f] 
             px-2 py-1 text-sm rounded-lg w-full sm:w-auto sm:px-3 sm:py-1.5 sm:rounded-xl sm:text-base">
-                        9511849241
+                        +918591934202
                     </button>
                     <a
                         href="https://www.swiggy.com/menu/1139545?source=sharing"

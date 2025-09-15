@@ -3,7 +3,8 @@ import Logo from "../assets/image-removebg-preview.png"
 import Onam1Img from "../assets/onam1.svg"
 import swiggy from "../assets/swiggy.png"
 import BenneCart from "../assets/h4visa.png"
-import { Instagram } from "lucide-react"
+import { Instagram, MessageCircle } from "lucide-react"
+
 
 function Footer() {
     return (
@@ -77,6 +78,15 @@ function Footer() {
                                     alt="Swiggy"
                                     className="w-8 h-8 p-1.5 bg-green-900 rounded-full"
                                 />
+                            </a>
+
+                            {/* WhatsApp */}
+                            <a
+                                href="https://wa.me/918591934202"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <MessageCircle className="w-8 h-8 p-1.5 bg-green-900 rounded-full" />
                             </a>
                         </div>
                     </div>
